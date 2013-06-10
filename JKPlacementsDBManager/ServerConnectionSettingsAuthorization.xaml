@@ -1,0 +1,12 @@
+﻿<Window x:Class="JKPlacementsDBManager.ServerConnectionSettingsAuthorization"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Authorization" Height="300" Width="300" MaxHeight="300" MinHeight="300" MaxWidth="300" MinWidth="300">
+    <Canvas HorizontalAlignment="Left" Height="269" VerticalAlignment="Top" Width="292">
+        <Label Content="Developed by Souham Biswas" Canvas.Left="101" Width="181" FontWeight="Thin" FontFamily="Consolas" Opacity="0.5"/>
+        <Label Content="Enter Password" Canvas.Left="29" Canvas.Top="79"/>
+        <PasswordBox x:Name="PasswordField" Canvas.Left="125" Canvas.Top="79" Height="26" Width="141"/>
+        <Label x:Name="WrongPasswordLabel" Content="" Canvas.Left="78" Canvas.Top="121" Width="130"/>
+        <Button x:Name="AuthorizeButton" Content="Proceed" Canvas.Left="96" Canvas.Top="170" Width="92" Height="44" Click="AuthorizeButton_Click"/>
+    </Canvas>
+</Window>
